@@ -8,21 +8,28 @@
     <title>Calculadora</title>
 
     <script>
+        //Esta funcion suma dos parametros entregados
         function SumaDosNumeros(Num1, Num2) {
             return Num1 + Num2
 
         }
 
-        console.log(SumaDosNumeros(2, 3));
+        console.log(SumaDosNumeros(2, 3)); //prueba de la funcion SumaDosNumeros
 
+
+        //Esta funcion resta dos parametros entregados
         function RestaDosNumeros(Num1, Num2) {
             return Num1 - Num2
         }
-        console.log(RestaDosNumeros(2, 3));
+        console.log(RestaDosNumeros(2, 3)); //prueba funcion RestaDosNumeros
 
+
+        //interaccion con el usuario
         var numero1 = parseInt(prompt("ingrese primer numero a sumar y restar"));
         var numero2 = parseInt(prompt("ingrese segundo numero a sumar y restar"));
 
+
+        //resultados en consola
         console.log("la suma de los numeros es: " + SumaDosNumeros(numero1, numero2));
         console.log("la resta de los numeros es: " + RestaDosNumeros(numero1, numero2));
     </script>
